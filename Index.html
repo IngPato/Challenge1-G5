@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>CHALLENGE-G5</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <div class="contenedor">
+        <!--header-->
+        <header>
+                <img src="IMAGENES/logoalura.png" alt="logo de alura" class="logo-imagen">
+                <h1 class="logo-titulo">ENCRIPTADOR DE TEXTO</h1>
+                <img src="IMAGENES/cerrar.png" alt="boton de cerrar" class="header-cerrar">
+        </header>
+        <div class="cuerpo">
+<!--1era pantalla-->
+            <div class="primerapantalla">
+                <div class="textoinicial">
+                    <h3><span class="texto">[*] Digite su texto a encriptar</span></h3>
+                    <h3>
+                    [!] *********************************************<br>
+                    [!] * Digite solo letras minúsculas sin acentos *<br>
+                    [!] *********************************************<br>
+                    </h3>
+                </div>
+                <!--ingreso de texto-->
+                <div class="ingtext">
+                    <h3>Text console </h3>
+                    <section>
+                        <textarea class="area" placeholder="Ingrese el texto aquí" ></textarea>
+                    </section>
+                </div>
+                    <section class="botones">
+                        <input class="encriptar" type="button" value="ENCRIPTAR">
+                        <input class="desencriptar" type="button" value="DESENCRIPTAR">
+                    </section>
+            </div>
+<!--2da pantalla-->
+                <div class="segundapantalla">
+                <!--area de encritacion-->
+                <div class="consola-animacion">
+                    <canvas id="canvas"></canvas>
+                    <h3>Encryption console</h3>   
+                </div>
+                <!--salida de texto-->
+                <div class="saltext">
+                <section>
+                    <textarea class="mensaje"></textarea>
+                    <input class="copiar" type="button" value="COPIAR">
+                    <input class="escuchar" type="button" value="REPRODUCIR">
+                    
+                </section>
+                </div> 
+                </div>
+        </div>
+            <!--footer-->
+        <footer>
+            <img class="LogoPresentacion" src="IMAGENES/LogoPresentacion.png" alt="logo de presentacion"></a>
+            <div class="redes">
+                <a href="https://github.com/IngPato"><img class="github" src="IMAGENES/githublogo.png" alt="logo de github"></a>
+                <a href="https://www.linkedin.com/in/patrick-arribasplata-bravo/"><img class="linkedin" src="IMAGENES/linkedinlogo.png" alt="logo de linkedin"></a>
+            </div>
+        </footer>
+        <!--javascript-->
+            <script src="JS/funciones.js"></script>
+    </div>
+</body>
+
+
+
+</html>
