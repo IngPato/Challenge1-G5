@@ -1,20 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet');
-*
-{
+
+* {
     font-family: 'Share Tech Mono', monospace;
     margin: 0%;
     padding: 0%;
 }
 
-body{
+body {
     background: black;
-    
-    
+
+
 }
+
 /* header */
-header{
+header {
     position: fixed;
-    top:0; left: 0; right: 0;
+    top: 0;
+    left: 0;
+    right: 0;
     display: flex;
     justify-content: space-between;
     z-index: 1000;
@@ -23,22 +26,26 @@ header{
     border-style: solid;
     border-width: 5px;
 }
-.logo-imagen{
+
+.logo-imagen {
     height: 80px;
     justify-content: center;
     align-items: center;
 }
-.logo-titulo{
+
+.logo-titulo {
     height: 60px;
     margin-top: 25px;
     justify-content: center;
     align-items: center;
 }
-.header-cerrar{
+
+.header-cerrar {
     height: 40px;
     margin-top: 10px;
     padding: 10px;
 }
+
 /* primera pantalla*/
 .cuerpo {
     width: 100%;
@@ -48,39 +55,45 @@ header{
     align-items: center;
     margin-top: 180px;
 }
-.primerapantalla{
+
+.primerapantalla {
     justify-content: space-between;
     margin-top: 325px;
     position: absolute;
     left: 100px;
-    
+
 }
-.textoinicial{
+
+.textoinicial {
     padding: 10px;
 }
 
-.primerapantalla h3{
+.primerapantalla h3 {
     color: green;
 }
+
 .texto {
-    background-image: linear-gradient(90deg, rgba(11,3,152,0.9809173669467787) 9%, rgba(0,134,6,1) 9%);
+    background-image: linear-gradient(90deg, rgba(11, 3, 152, 0.9809173669467787) 9%, rgba(0, 134, 6, 1) 9%);
     -webkit-text-fill-color: transparent;
     background-clip: text;
     -webkit-background-clip: text;
-    
+
 }
-.ingtext{
+
+.ingtext {
     position: relative;
-	background-color: white;
+    background-color: white;
     margin-top: 5px;
     margin-left: 10px;
     width: 500px;
-	
+
 }
-.ingtext h3{
+
+.ingtext h3 {
     color: black;
     margin-left: 5px;
 }
+
 section.izq {
     width: 60%;
     height: 65vh;
@@ -90,22 +103,24 @@ section.izq {
     padding-top: 3%;
     text-align: center;
 }
+
 .area {
     width: 470px;
     height: 300px;
     bottom: 10px;
-	left: 10px;
-	right: 10px;
-	top: 30px;
+    left: 10px;
+    right: 10px;
+    top: 30px;
     margin-left: 5px;
     resize: none;
-	border: none;
-	background-color: black;
-	padding: 10px;
-	font-size: 14px;
-	line-height: 1.5;
-	color: green;
+    border: none;
+    background-color: black;
+    padding: 10px;
+    font-size: 14px;
+    line-height: 1.5;
+    color: green;
 }
+
 .encriptar {
     width: 30%;
     height: 20%;
@@ -114,14 +129,16 @@ section.izq {
     margin-right: 180px;
     border-radius: 20px;
     border-color: green;
-    background:black;
+    background: black;
     color: green;
     padding: 5px;
 }
+
 .encriptar:hover {
-    background:green;
+    background: green;
     color: black;
 }
+
 .desencriptar {
     width: 30%;
     height: 10%;
@@ -129,22 +146,25 @@ section.izq {
     border-width: 3px;
     border-radius: 20px;
     border-color: green;
-    background:black;
+    background: black;
     color: green;
     padding: 5px;
 }
+
 .desencriptar:hover {
-    background:green;
-    color:black;
+    background: green;
+    color: black;
 }
+
 /* segunda pantalla */
-.segundapantalla{
+.segundapantalla {
     justify-content: space-between;
-    margin-top: 325px;
+    margin-top: 300px;
     position: absolute;
     right: 150px;
 }
-.consola-animacion{
+
+.consola-animacion {
     width: 510px;
     border-width: 5px;
     border-style: solid;
@@ -153,18 +173,21 @@ section.izq {
     margin-bottom: 20px;
 
 }
-canvas{
+
+canvas {
     width: 500px;
     height: 200px;
 }
-.consola-animacion h3{
+
+.consola-animacion h3 {
     color: black;
     background-color: white;
     text-align: center;
 }
-.saltext{
+
+.saltext {
     position: relative;
-	background-color: white;
+    background-color: white;
     margin-top: 5px;
     width: 520px;
 }
@@ -180,23 +203,25 @@ section.der {
     line-height: 200%;
     overflow: hidden;
 }
+
 .mensaje {
     width: 490px;
     height: 200px;
     bottom: 10px;
-	left: 10px;
-	right: 10px;
-	top: 30px;
+    left: 10px;
+    right: 10px;
+    top: 30px;
     margin-top: 5px;
     margin-left: 5px;
     resize: none;
-	border: none;
-	background-color: black;
-	padding: 10px;
-	font-size: 14px;
-	line-height: 1.5;
-	color: green;
+    border: none;
+    background-color: black;
+    padding: 10px;
+    font-size: 14px;
+    line-height: 1.5;
+    color: green;
 }
+
 .copiar {
     width: 35%;
     height: 10%;
@@ -209,11 +234,13 @@ section.der {
     margin-bottom: 5px;
     margin-left: 5px;
 }
+
 .copiar:hover {
     border-color: black;
     background: white;
     color: black;
 }
+
 .escuchar {
     width: 35%;
     height: 10%;
@@ -224,14 +251,18 @@ section.der {
     margin-top: 5px;
     margin-bottom: 5px;
 }
+
 .escuchar:hover {
     border-color: black;
     background: white;
     color: black;
 }
+
 /* pie de pagina*/
 footer {
-    bottom: 0;left: 0; right: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
     display: flex;
     z-index: 1000;
     background-color: white;
@@ -243,58 +274,66 @@ footer {
 
 }
 
-.LogoPresentacion{
+.LogoPresentacion {
     height: 80px;
     justify-content: flex-start;
     align-items: center;
 }
 
-.redes{
+.redes {
     justify-content: flex-end;
 }
-.linkedin{
+
+.linkedin {
     height: 80px;
     align-items: center;
 }
-.github{
+
+.github {
     height: 60px;
     align-items: center;
     padding: 10px;
 }
+
 /* tamaño tablet o pc pequeña*/
-@media (max-width:1285px){
-    body{
+@media (max-width:1285px) {
+    body {
         display: flex;
         justify-content: center;
         align-items: center;
         height: 1250px;
     }
+
     .cuerpo {
         text-align: center;
         display: block;
         margin-top: 0;
     }
-    .primerapantalla{
+
+    .primerapantalla {
         align-items: center;
         position: relative;
         left: 50%;
         transform: translateX(-50%);
         margin-top: 0;
     }
+
     .primerapantalla .textoinicial,
-    .primerapantalla .ingtext, 
+    .primerapantalla .ingtext,
     .primerapantalla .botones {
         display: block;
         margin: 0 auto;
         text-align: center;
     }
-    .segundapantalla{
+
+    .segundapantalla {
         align-items: center;
         margin-top: 10px;
         position: relative;
         left: 50%;
         transform: translateX(-50%);
-    } 
+    }
+
     .segundapantalla .consola-animacion,
     .segundapantalla .saltext {
         display: block;
@@ -302,61 +341,62 @@ footer {
         text-align: center;
     }
 }
+
 /* tamaño celular */
-@media (max-width: 550px){
-    body{
+@media (max-width: 550px) {
+    body {
         height: auto;
     }
 
-    .logo-imagen{
+    .logo-imagen {
         height: 80px;
         position: relative;
         left: 50%;
         transform: translateX(-50%);
     }
-    .logo-titulo{
+
+    .logo-titulo {
         display: none;
     }
-    .header-cerrar{
+
+    .header-cerrar {
         display: none;
     }
 
 
-    .LogoPresentacion{
+    .LogoPresentacion {
         height: 80px;
         position: relative;
         left: 50%;
         transform: translateX(-50%);
     }
-    .linkedin{
-        display: none;
-    }
-    .github{
+
+    .linkedin {
         display: none;
     }
 
-    .cuerpo{
+    .github {
+        display: none;
+    }
+
+    .cuerpo {
         margin: 100px;
         width: 500px;
     }
 
 
-    
-    .primerapantalla{
+
+    .primerapantalla {
         align-items: center;
         position: relative;
         left: 50%;
         transform: translateX(-50%);
         margin-top: 0;
     }
+
     .primerapantalla,
     .segundapantalla {
         max-width: 90%;
         margin: 0 auto;
     }
 }
-  
-  
-
-
-
